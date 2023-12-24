@@ -1,0 +1,15 @@
+2023-12-24 09:03:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER" not found (this database is empty); SQL statement:
+select * from t_user [42104-214]
+2023-12-24 09:04:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER" not found (this database is empty); SQL statement:
+select * from t_user [42104-214]
+2023-12-24 09:04:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "T_USER" not found (this database is empty); SQL statement:
+insert into t_user(id, name) values(2,'zhangsan') [42104-214]
+2023-12-24 09:30:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "trees" already exists; SQL statement:
+CREATE TABLE trees ( id BIGINT PRIMARY KEY, name VARCHAR(100) ) [42101-214]
+2023-12-24 09:30:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "trees" already exists; SQL statement:
+CREATE TABLE trees ( id BIGINT PRIMARY KEY, name VARCHAR(100) ) [42101-214]
